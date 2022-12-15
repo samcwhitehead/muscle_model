@@ -3,7 +3,9 @@
 ##Library for aligning muscle models to the thorax of the fly
 import numpy as np
 
-database_path = '/media/analysis-code/flight-muscles/experimental/mn_expression_matrix_plot/line_database.cpkl'
+# *** This needs to be updated!! Has the wrong info for GMR39E01!
+this_dir, this_filename = os.path.split(__file__)
+database_path = os.path.join(this_dir, 'line_database.cpkl')
 
 def get_line_database(line_name):
     line_name = line_name.split('_GFP')[0].split('GMR')[1]
