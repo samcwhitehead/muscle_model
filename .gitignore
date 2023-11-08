@@ -161,3 +161,7 @@ cython_debug/
 
 # Custom (ignore code from others that I should leave on the machine)
 confocal_reference/
+old/
+**/old
+_old/
+*.pyc

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 ##Library for aligning muscle models to the thorax of the fly
+import os
 import numpy as np
 
 # *** This needs to be updated!! Has the wrong info for GMR39E01!
